@@ -1,0 +1,1 @@
+import{b as i,j as n}from"./react-vendor-CvTU5dUg.js";import{u as e}from"./index-CMyg9hab.js";function u({className:t=""}){const s=i(),o=e(),a=()=>{(window.history.state&&typeof window.history.state.idx=="number"?window.history.state.idx:0)>0?s(-1):s("/dashboard")};return n.jsxs("button",{className:`focus-back ${t}`,onClick:a,children:["← ",o("pg.back")]})}export{u as F};

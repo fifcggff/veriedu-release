@@ -1,0 +1,1 @@
+import{p as o,R as c}from"./parse-DWxEdWZL.js";function i(n){var t;try{const r=o(n),s=(t=r.always.find(e=>e.kind==="seq"))==null?void 0:t.clk,a=r.decls.filter(e=>e.kind==="input"&&e.name!==s).map(e=>e.name);return{ok:!0,module:r,hasClock:!!s,inputs:a,clk:s}}catch(r){return{ok:!1,error:r instanceof c||r instanceof Error?r.message:String(r),hasClock:!1,inputs:[]}}}export{i as c};
